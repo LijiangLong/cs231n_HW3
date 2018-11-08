@@ -1,9 +1,8 @@
+from __future__ import print_function
 import torch
 import torch.nn as nn
 import torchvision.models as models
 from torch.nn.utils.rnn import pack_padded_sequence
-
-from __future__ import print_function
 import time, os, json
 import numpy as np
 import matplotlib.pyplot as plt
